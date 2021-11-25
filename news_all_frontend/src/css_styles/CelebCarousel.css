@@ -1,0 +1,99 @@
+.MessageInfo > img {
+    width: 50%;
+    height: 350px;
+    border: 10px solid black;
+    opacity: 0.8;
+    /* border-radius: 10%; */
+}
+
+.MessageInfo{
+    /* border: 1px solid black; */
+    /* position: relative; */
+}
+
+.Containers {
+    /* border-radius: 10%; */
+    margin: 10px;
+    margin-bottom: 0px;
+    
+}
+.slideshow-container {
+    background-image: linear-gradient(rgb(86, 255, 44), rgb(252, 43, 6));
+    padding-bottom: 0px;
+    margin-bottom:0px
+}
+
+.Info{
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.Info > h2{
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 750px) {
+    h2 {
+        font-size: var(--mobile_text_size);
+        font-family: var(--mobile_font_family);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        text-align: start;
+        text-decoration: none;
+        text-shadow: none;
+        text-transform: none;
+        letter-spacing: normal;
+        word-break: normal;
+        word-spacing: normal;
+        white-space: normal;
+        line-break: auto;
+        font-size: 0.875rem;
+        word-wrap: break-word;
+        opacity: 10;
+    }
+
+    .MessageInfo > img {
+        width: 50%;
+        height: 100px;
+        border: 10px solid black;
+        opacity: 0.8;
+        /* border-radius: 10%; */
+    }
+    
+    .MessageInfo{
+        /* border: 1px solid black; */
+        /* position: relative; */
+    }
+    
+    .Containers {
+        /* border-radius: 10%; */
+        margin: 5px;
+        margin-bottom: 0px;
+        
+    }
+    .slideshow-container {
+        background-image: linear-gradient(rgb(86, 255, 44), rgb(252, 43, 6));
+        padding-bottom: 0px;
+        margin-bottom:0px
+    }
+    
+    .Info{
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        color: rgb(0, 0, 0);
+        width: 100%;
+    }
+    
+    .Info > h2{
+        color: rgb(253, 253, 253);
+        font-weight: bold;
+    }
+}

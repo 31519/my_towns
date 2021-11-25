@@ -1,0 +1,11 @@
+:root {
+    --black: #576477;
+    --mobile_text_color:#fff;
+    --mobile_font_weight: 900;
+    --mobile_font_family: "Montserrat", sans-serif;
+    --mobile_container_color: #000000;
+    --mobile_text_size: 1rem;
+    --mobile_text_size_title: 8px;
+    --mobile_text_color_title: rgb(179, 159, 159);
+    }
+    
